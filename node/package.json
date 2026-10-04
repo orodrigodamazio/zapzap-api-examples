@@ -11,7 +11,7 @@
     "ai-bot": "node ai-bot.js"
   },
   "license": "MIT",
-  "author": "Rodrigo Damazio",
+  "author": "GM Solutions Hub LTDA",
   "dependencies": {
     "axios": "^1.7.0",
     "dotenv": "^16.4.0",

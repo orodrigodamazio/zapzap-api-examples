@@ -115,4 +115,4 @@ Consulta la tabla en la sección en portugués; las rutas de los archivos son la
 
 ## License
 
-[MIT](LICENSE) © Rodrigo Damazio
+[MIT](LICENSE) © GM Solutions Hub LTDA
