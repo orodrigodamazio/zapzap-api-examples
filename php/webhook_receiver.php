@@ -24,7 +24,7 @@ if ($webhookSecret && (($_GET['token'] ?? '') !== $webhookSecret)) {
     exit;
 }
 
-// Answer 200 fast — ZapZap disables webhooks that keep failing.
+// Answer 200 fast, ZapZap disables webhooks that keep failing.
 http_response_code(200);
 header('Content-Type: application/json');
 echo json_encode(['ok' => true]);

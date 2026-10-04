@@ -58,7 +58,7 @@ app.post('/webhook', (req, res) => {
       console.log('  connection:', connected ? 'connected' : 'disconnected');
     }
   } catch (err) {
-    // Already answered 200 — just log and move on.
+    // Already answered 200, just log and move on.
     console.error('Webhook processing error:', err);
   }
 });

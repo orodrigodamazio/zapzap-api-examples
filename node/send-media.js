@@ -6,7 +6,7 @@
 //   file:   a PUBLIC URL to the file (sending by URL supports up to ~190MB
 //           for image/video/audio, ~500MB for document).
 //   text:   optional caption (image/video only; ignored by ptv).
-//   docName: file name shown in the chat — required for type=document.
+//   docName: file name shown in the chat, required for type=document.
 //
 // Run: node send-media.js 5511999999999 image https://picsum.photos/600 "Check this out"
 

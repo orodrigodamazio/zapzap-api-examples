@@ -18,7 +18,7 @@ API_KEY = os.getenv("ZAPZAP_API_KEY")
 API_SECRET = os.getenv("ZAPZAP_API_SECRET")
 INSTANCE_ID = os.getenv("ZAPZAP_INSTANCE_ID")
 
-# Credentials come from env vars — never hardcode them.
+# Credentials come from env vars, never hardcode them.
 if not (API_KEY and API_SECRET and INSTANCE_ID):
     sys.exit("Missing env vars. Copy .env.example to .env and fill it in.")
 

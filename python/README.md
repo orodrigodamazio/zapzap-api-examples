@@ -1,4 +1,4 @@
-# ZapZap API — Python examples
+# ZapZap API, Python examples
 
 `requests` for calls, `flask` for the webhook servers.
 

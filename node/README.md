@@ -1,4 +1,4 @@
-# ZapZap API — Node.js examples
+# ZapZap API, Node.js examples
 
 Plain Node.js + `axios`, webhook servers with `express`.
 

@@ -6,7 +6,7 @@ Body:     {"number", "type", "file", "text"?, "docName"?}
   file:   a PUBLIC URL (sending by URL supports up to ~190MB for
           image/video/audio, ~500MB for document).
   text:   optional caption (image/video only; ignored by ptv).
-  docName: file name shown in chat — required for type=document.
+  docName: file name shown in chat, required for type=document.
 
 Run: python send_media.py 5511999999999 image https://picsum.photos/600 "Caption"
 """

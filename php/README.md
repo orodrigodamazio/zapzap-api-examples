@@ -1,4 +1,4 @@
-# ZapZap API — PHP examples
+# ZapZap API, PHP examples
 
 Plain PHP with cURL, no dependencies.
 

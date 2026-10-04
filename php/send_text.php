@@ -8,7 +8,7 @@
  * Run (CLI): php send_text.php 5511999999999 "Hello from ZapZap!"
  */
 
-// Credentials come from env vars — never hardcode them.
+// Credentials come from env vars, never hardcode them.
 $baseUrl    = getenv('ZAPZAP_BASE_URL') ?: 'https://api.zapzapapi.com/api/v1';
 $apiKey     = getenv('ZAPZAP_API_KEY');
 $apiSecret  = getenv('ZAPZAP_API_SECRET');

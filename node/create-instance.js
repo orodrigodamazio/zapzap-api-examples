@@ -1,7 +1,7 @@
 // Create a WhatsApp instance, point its webhook at your server, and print the
 // QR Code payload so you can connect the number.
 //
-// Endpoints (management API — base URL, header auth):
+// Endpoints (management API, base URL, header auth):
 //   POST /api/v1/instances                 -> create instance
 //   PUT  /api/v1/instances/{id}/webhook    -> set webhook URL
 //   GET  /api/v1/instances/{id}/qrcode     -> fetch QR Code to scan
@@ -38,7 +38,7 @@ const api = axios.create({
 
 async function main() {
   // 1) Create the instance. `metadata` is free-form JSON echoed back in every
-  //    webhook — use it to tie the instance to your own system (clientId, plan...).
+  //    webhook, use it to tie the instance to your own system (clientId, plan...).
   const createRes = await api.post('/instances', {
     name,
     systemName: 'My App',
@@ -56,7 +56,7 @@ async function main() {
       : WEBHOOK_URL;
     const hookRes = await api.put(`/instances/${instance.id}/webhook`, {
       webhook_url: url,
-      // events: 'messages,connection', // optional — empty means all events
+      // events: 'messages,connection', // optional, empty means all events
       excludeMessages: 'true', // skip your own outgoing messages (fromMe)
     });
     console.log('Webhook set:', hookRes.data);

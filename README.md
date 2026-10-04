@@ -1,7 +1,7 @@
-# ZapZap API — Code Examples
+# ZapZap API, Code Examples
 
 > **WhatsApp API · anti-ban · fixed price · no Meta approval · no Business verification**
-> Ready-to-run examples in **Node.js**, **Python** and **PHP** for the [ZapZap API](https://zapzapapi.com) — the unofficial WhatsApp API that lets you send and receive WhatsApp messages from your own code without Meta/WABA approval, at a flat monthly price per number.
+> Ready-to-run examples in **Node.js**, **Python** and **PHP** for the [ZapZap API](https://zapzapapi.com), the unofficial WhatsApp API that lets you send and receive WhatsApp messages from your own code without Meta/WABA approval, at a flat monthly price per number.
 
 **Keywords:** WhatsApp API, WhatsApp HTTP API, send WhatsApp message with code, WhatsApp webhook, WhatsApp chatbot, WhatsApp bot OpenAI, unofficial WhatsApp API, no Meta approval, fixed price WhatsApp API, anti-ban WhatsApp, Node.js WhatsApp, Python WhatsApp, PHP WhatsApp.
 
@@ -14,7 +14,7 @@
 ## 🇧🇷 Português
 
 ### O que é
-A **ZapZap API** é uma plataforma para integrar o WhatsApp ao seu sistema por HTTP. Você cria uma instância (um número de WhatsApp), conecta escaneando um QR Code e passa a enviar/receber mensagens direto do seu código — **sem aprovação da Meta, sem verificação de negócio e com preço fixo mensal por número**.
+A **ZapZap API** é uma plataforma para integrar o WhatsApp ao seu sistema por HTTP. Você cria uma instância (um número de WhatsApp), conecta escaneando um QR Code e passa a enviar/receber mensagens direto do seu código, **sem aprovação da Meta, sem verificação de negócio e com preço fixo mensal por número**.
 
 ### Como pegar sua chave
 1. Crie sua conta em https://zapzapapi.com e adicione saldo.
@@ -35,17 +35,17 @@ Duas rotas de autenticação coexistem:
 | Caso de uso | Node.js | Python | PHP |
 |---|---|---|---|
 | Enviar texto | [`node/send-text.js`](node/send-text.js) | [`python/send_text.py`](python/send_text.py) | [`php/send_text.php`](php/send_text.php) |
-| Enviar mídia (imagem/áudio/vídeo/doc) | [`node/send-media.js`](node/send-media.js) | [`python/send_media.py`](python/send_media.py) | — |
-| Criar instância + configurar webhook | [`node/create-instance.js`](node/create-instance.js) | — | — |
+| Enviar mídia (imagem/áudio/vídeo/doc) | [`node/send-media.js`](node/send-media.js) | [`python/send_media.py`](python/send_media.py) |, |
+| Criar instância + configurar webhook | [`node/create-instance.js`](node/create-instance.js) |, |, |
 | Receber webhook | [`node/webhook-receiver.js`](node/webhook-receiver.js) | [`python/webhook_receiver.py`](python/webhook_receiver.py) | [`php/webhook_receiver.php`](php/webhook_receiver.php) |
-| Bot com IA (webhook → OpenAI → responde) | [`node/ai-bot.js`](node/ai-bot.js) | [`python/ai_bot.py`](python/ai_bot.py) | — |
+| Bot com IA (webhook → OpenAI → responde) | [`node/ai-bot.js`](node/ai-bot.js) | [`python/ai_bot.py`](python/ai_bot.py) |, |
 
 ---
 
 ## 🇺🇸 English
 
 ### What it is
-The **ZapZap API** lets you integrate WhatsApp into your software over HTTP. You create an instance (one WhatsApp number), connect it by scanning a QR Code, and start sending/receiving messages straight from your code — **no Meta approval, no Business verification, flat monthly price per number**.
+The **ZapZap API** lets you integrate WhatsApp into your software over HTTP. You create an instance (one WhatsApp number), connect it by scanning a QR Code, and start sending/receiving messages straight from your code, **no Meta approval, no Business verification, flat monthly price per number**.
 
 ### Get your key
 1. Sign up at https://zapzapapi.com and top up your balance.
@@ -62,14 +62,14 @@ The **ZapZap API** lets you integrate WhatsApp into your software over HTTP. You
 - **Sending to WhatsApp (wildcard proxy):** same header pair, under `https://api.zapzapapi.com/api/v1/{instanceId}/...`.
 
 ### Example index
-See the table in the Portuguese section above — the file paths are the same.
+See the table in the Portuguese section above, the file paths are the same.
 
 ---
 
 ## 🇪🇸 Español
 
 ### Qué es
-La **ZapZap API** te permite integrar WhatsApp en tu sistema por HTTP. Creas una instancia (un número de WhatsApp), la conectas escaneando un código QR y empiezas a enviar/recibir mensajes desde tu propio código — **sin aprobación de Meta, sin verificación de negocio y con precio fijo mensual por número**.
+La **ZapZap API** te permite integrar WhatsApp en tu sistema por HTTP. Creas una instancia (un número de WhatsApp), la conectas escaneando un código QR y empiezas a enviar/recibir mensajes desde tu propio código, **sin aprobación de Meta, sin verificación de negocio y con precio fijo mensual por número**.
 
 ### Obtener tu clave
 1. Regístrate en https://zapzapapi.com y agrega saldo.

@@ -13,7 +13,7 @@ const API_KEY = process.env.ZAPZAP_API_KEY;
 const API_SECRET = process.env.ZAPZAP_API_SECRET;
 const INSTANCE_ID = process.env.ZAPZAP_INSTANCE_ID;
 
-// Credentials come from env vars — never hardcode them.
+// Credentials come from env vars, never hardcode them.
 if (!API_KEY || !API_SECRET || !INSTANCE_ID) {
   console.error('Missing env vars. Copy .env.example to .env and fill it in.');
   process.exit(1);

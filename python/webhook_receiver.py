@@ -60,7 +60,7 @@ def webhook():
         )
         print("  connection:", "connected" if connected else "disconnected")
 
-    # Answer 200 fast — ZapZap disables webhooks that keep failing.
+    # Answer 200 fast, ZapZap disables webhooks that keep failing.
     return jsonify({"ok": True})
 
 
